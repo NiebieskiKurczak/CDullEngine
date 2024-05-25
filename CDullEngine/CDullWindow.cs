@@ -6,6 +6,7 @@ using OpenTK.Windowing.Desktop;
 using OpenTK.Windowing.GraphicsLibraryFramework;
 
 public class CDullWindow : GameWindow {
+    public readonly string CDullEngineVersion = "1.0.0";
     public CDullProject cDullProject;
 
     public CDullWindow(int width, int height, string title, CDullProject cDullProject) : base(GameWindowSettings.Default, new NativeWindowSettings() { ClientSize = (width, height), Title = title }) {
